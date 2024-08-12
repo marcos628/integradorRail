@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PersonalInfoController {
     @GetMapping("/personal-info")
     public PersonalInfo getPersonalInfo() {
-        return new PersonalInfo("John", "Doe", 30, "john.doe@example.com");
+        return new PersonalInfo("Marcos", "Gamez", 17, "Marcos@example.com");
     }
 
     public static class PersonalInfo {
